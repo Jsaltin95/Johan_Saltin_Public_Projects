@@ -4,4 +4,5 @@ Some TEXT
 """""
 
 
-The projects final state can be seen in: https://github.com/Jsaltin95/johan_Saltin_public_projects
+The projects final state can be seen in the following youtube link: https://www.youtube.com/watch?v=HRMW72OgkdM
+A project report is also attatched.
