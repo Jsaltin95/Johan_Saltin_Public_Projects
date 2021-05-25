@@ -5,9 +5,11 @@ Hello!
 
 Welcome to my Github. Within the repository you will be able to find different projects and documents.
 
+Hardware Projects
 * Sha-3 fifo limit
 * Sha-3 time limit
 * MAC (multiplier and accumulator)
 * Verilog vending machine project
-* 9-bit ripple carry adder documentation
+* 9-bit ripple carry adder
 
+Software Projects
