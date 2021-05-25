@@ -13,8 +13,7 @@ Welcome to my Github. Within the repository you will be able to find different p
 * 9-bit ripple carry adder
 
 ## Software Projects
-
-
+(TBA)
 
 ## Publications: Conference Paper and Article
 
