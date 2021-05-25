@@ -5,18 +5,18 @@ Hello!
 
 Welcome to my Github. Within the repository you will be able to find different projects and documents.
 
-Hardware Projects
+<ins>Hardware Projects</ins>
 * Sha-3 fifo limit
 * Sha-3 time limit
 * MAC (multiplier and accumulator)
 * Verilog vending machine project
 * 9-bit ripple carry adder
 
-Software Projects
+<ins>Software Projects</ins>
 
 
 
-<ins>Publications: Conference Paper and Article</ins>
+<ins>Publications: Conference Paper and Article</ins>:
 
 Radiation Hardness Study of LG = 20 nm FinFET and Nanowire SRAM Through TCAD Simulation:
 https://doi.org/10.1109/TED.2021.3067855
