@@ -46,11 +46,10 @@ int main()
     int takechips;
     // declare a boolean variable for gameOVer to determine when the game is done
     bool gameOver = false;
+    srand(time(NULL));
     while(!gameOver)
     {
         // Iniializing rand
-        srand(time(NULL));
-
         player1Turn = true;
         chipsInPile = 0;
         chipsTaken = 0;
@@ -71,7 +70,7 @@ int main()
             std::cout<< " takes " << takechips << " with " << chipsTaken << " of chips taken and " << chipsInPile << " chips left in pile" << std::endl;
             
         }
-        if (player1Turn){std::cout<< "Player1 LOSE!"<< std::endl;}
+        if (!player1Turn){std::cout<< "Player1 LOSE!"<< std::endl;}
         else{std::cout<< "Player2 LOSE!"<< std::endl;}
 
         std::cout << "Play again? Y or N (or anything else)" << std::endl;
