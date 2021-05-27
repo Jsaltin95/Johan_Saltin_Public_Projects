@@ -6,7 +6,7 @@ Hello!
 Welcome to my Github. Within the repository you will be able to find different projects and documents.
 
 ## Hardware Projects
-* Sha-3 fifo limit
+* Sha-3 flip-flop limit
 * Sha-3 time limit
 * MAC (multiplier and accumulator)
 * Verilog vending machine project
