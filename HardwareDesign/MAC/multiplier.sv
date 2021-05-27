@@ -53,14 +53,9 @@ module multiplier(
         //A_3 <= A_2;
         //B_3 <= B_2;
         
-        //A_intermediate <= 16'd0; B_intermediate <= 16'd0; 
         A_intermediate[15:10] =6'b000001;B_intermediate[15:10] = 6'b000001; // Add the invisible 1. to the calculation.
-        A_intermediate[9:0] <= A[9:0]; B_intermediate[9:0] <= B[9:0]; // Take the mantissa from the main variable
-        //$display("A_intermediate %b",A_intermediate);
-        //$display("B_intermediate %b",B_intermediate);     
+        A_intermediate[9:0] <= A[9:0]; B_intermediate[9:0] <= B[9:0]; // Take the mantissa from the main variable    
         C_intermediate= (A_intermediate*B_intermediate);
-        //$display("C_intermediate %b",C_intermediate);
-        //$display("C_intermediate %b",C_intermediate);
         casex(C_intermediate)
             24'b000000000000000000000001: out = 5'd0;
             24'b00000000000000000000001x: out = 5'd1;
@@ -103,6 +98,5 @@ module multiplier(
          if(C[i]===1'bX) C=16'd0;
          if(C[i]===1'bZ) $display("C[%0d] is Z",C[i]);
         end
-        //$display("C_m4 %b",C);
     end
 endmodule
