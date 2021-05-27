@@ -6,7 +6,7 @@ Hello!
 Welcome to my Github. Within the repository you will be able to find different projects and documents.
 
 ## Hardware Projects
-* Sha-3 flip-flop limit
+* Router NoC on a SoC with a flip-flop limited Sha-3#
 * Sha-3 time limit
 * MAC (multiplier and accumulator)
 * Verilog vending machine project
