@@ -1,1 +1,1 @@
-Hello this is the read me file.
+THis is Sha-3 first proj
