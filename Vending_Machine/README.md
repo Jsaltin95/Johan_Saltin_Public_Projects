@@ -1,3 +1,4 @@
-The projects final state can be seen in the following youtube link: https://www.youtube.com/watch?v=HRMW72OgkdM
+PLEASE SEE THIS LINK INSTEAD: https://github.com/Jsaltin95/Johan_Saltin_Public_Projects/tree/main/HardwareDesign/Vending_Machine
 
-A project report is also attatched.
+
+Thanks!
