@@ -1,1 +1,3 @@
-THis is Sha-3 first proj
+PLEASE SEE THIS LINK INSTEAD: https://github.com/Jsaltin95/Johan_Saltin_Public_Projects/tree/main/HardwareDesign/Sha_3_permutation_engine
+
+Thanks!
