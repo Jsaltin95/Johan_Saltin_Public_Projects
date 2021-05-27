@@ -40,18 +40,10 @@ module top_tb(
     wire [15:0] A_adder0,A_adder1,A_adder2,A_adder3,A_adder4,A_adder5,A_adder6,A_adder7,A_adder8,A_adder9,A_adder10;
     wire [15:0] B_adder0,B_adder1,B_adder2,B_adder3,B_adder4,B_adder5,B_adder6,B_adder7,B_adder8,B_adder9,B_adder10;
 
-    //assign A = A_d;
-    //assign B = B_d;
-    //assign C = C_d;
     initial begin
-        //A = 16'd0;
-        //B = 16'd0;
-        //C = 16'd0;
-        //A_d = 16'b0011101100110011; //0.9
-        //B_d = 16'b0011100001100110; //0.55
         A_d[0] = 16'b0011101100000000; //0.875
         B_d = 16'b1011011001100110; //-0.4
-        //B_d[1] = 16'b1011010011001101; //-0.3
+
         counter = 0;
         counter2 =0;
         #310 $finish;
@@ -146,11 +138,6 @@ module top_tb(
         
         addholder3= C_adder9;
         finalholder= C_adder10;
-
-
-        //$display("A_adder_d %b",A_adder_d);
-        //$display("B_adder_d %b",B_adder_d);
-        //$display("C_adder %b",C_adder);
         
         $display("C %b",C);
 
@@ -265,33 +252,7 @@ module adder2(
             C_mantissa <=C_mantissa_d2[9:0];
             C_exp_d <= L_exp_d;
             C_sig_d <= L_sig_d;
-            /*
-            $display("");
-            $display("A %b",A);
-            $display("B %b",B);
-            
-            $display("S_mantissa %b",S_mantissa);
-            $display("S_mantissa_d %b",S_mantissa_d);
-            $display("S_mantissa_d_sh %b",S_mantissa_d_sh);
-            $display("S_mantissa_d_sh_sign %b",S_mantissa_d_sh_sign);
-            $display("L_mantissa_d %b",L_mantissa_d);
-            $display("C_mantissa_d %b",C_mantissa_d);
-            $display("C_mantissa_d[10:0] %b",C_mantissa_d[10:0]);
-            $display("out %d",out);
-            $display("C_mantissa_d2 %b",C_mantissa_d2);
-            $display("should be %b",10'b1110011010);
-            $display("C_exp_d %b",C_exp_d);
-            $display("C_exp %b",C_exp);
-            $display("should be %b",5'b01101);
-            $display("C_sig_d %b",C_sig_d);
-            $display("{C_sig_d,C_exp_d,C_mantissa[9:0]} %b",({C_sig_d,C_exp_d[4:0],C_mantissa[9:0]}));
-            $display("C_mantissa %b",C_mantissa);
-            $display("C_d %b",C_d);
-            $display("should be %b",16'b0011011110011010);
-            $display("L_exp_d - S_exp_d %b", (L_exp_d - S_exp_d));
-            $display("~S_exp_d+16'd1 %b",(~S_exp_d+5'd1));
-            $display("L_exp_d - S_exp_d %b", (L_exp_d - (~S_exp_d+5'd1)-5'd15));
-            $display("");*/
+
             end
         end
     assign C_mantissa_d = S_mantissa_d_sh_sign + L_mantissa_d;
